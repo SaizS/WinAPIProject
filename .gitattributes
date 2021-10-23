@@ -63,4 +63,5 @@
 #*.RTF   diff=astextplain
 
 *.cpp linguist-detectable=true 
+*.css linguist-detectable=false 
 *.java linguist-detectable=false
