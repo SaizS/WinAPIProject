@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{32cff97c-9299-473f-83c2-306a287958de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameManager">
+      <UniqueIdentifier>{31e30aaf-0b6a-4cb2-990f-146a6cf2b850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Object">
+      <UniqueIdentifier>{1152de52-66ab-4d58-9ed9-ad34c9ed3cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Common">
+      <UniqueIdentifier>{59471325-4b8d-4708-b525-2bbb4c83bc1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Image">
+      <UniqueIdentifier>{6942d426-e257-45c2-b622-19cf339c9d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\GameObject">
+      <UniqueIdentifier>{6dc3e68c-61c0-457d-84eb-dc0cd0ebcc84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Keyborad">
+      <UniqueIdentifier>{72ca1c3e-3280-4059-ba27-d5383dbefd61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Math">
+      <UniqueIdentifier>{be61b9bd-8b55-467c-b9c4-8f720e50ad6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Timer">
+      <UniqueIdentifier>{23e83445-2399-4a9f-82d7-e13f6fa1acfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\ImageManager">
+      <UniqueIdentifier>{731bc334-5041-4dcd-a5db-9c4715fd098c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\SoundManager">
+      <UniqueIdentifier>{e1402df5-0da4-4e7e-905e-132a6f4a7f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Animation">
+      <UniqueIdentifier>{a7c1fe6d-b284-454e-82fa-5bdb132e1f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{8dcda255-162a-45a0-a457-fd66160f6240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Effect">
+      <UniqueIdentifier>{14b18132-8dc4-4bed-a565-4fa13e0397b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Player">
+      <UniqueIdentifier>{64af1937-7a48-4930-8b72-4ebb1612375a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Bullet">
+      <UniqueIdentifier>{0f5aff29-8e2c-4cea-8d63-33485d3cd0b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Map">
+      <UniqueIdentifier>{6bf13a94-8c8d-438a-966d-be26f831094b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\EnemyManager">
+      <UniqueIdentifier>{0a21246d-3292-4fad-97bf-cbbcea019c84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Bomb">
+      <UniqueIdentifier>{152ef94f-dbf7-40f3-8442-df0e143f0018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Hub">
+      <UniqueIdentifier>{751e81ab-c67b-452c-bce5-3adbaec43444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\EnemyManager\Tank">
+      <UniqueIdentifier>{c2bc2a0f-60b2-4ae5-b490-7e8dde9625bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\EnemyManager\Enemy">
+      <UniqueIdentifier>{963b75da-0ce6-44b6-b7aa-087cce22b965}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager\Npc">
+      <UniqueIdentifier>{74cb6f25-a5d9-4cfc-9983-1e48d707d3e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{77aded64-63f9-4eb9-9931-017d579d3ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\SceneManager">
+      <UniqueIdentifier>{32565157-24bd-4170-906b-b003297f8e31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="WinAPIProject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>FrameWork\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>FrameWork\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>FrameWork\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>FrameWork\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>FrameWork\Keyborad</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>FrameWork\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>FrameWork\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>FrameWork\ImageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>FrameWork\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>FrameWork\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>FrameWork\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>FrameWork\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Manager\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Manager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Info.h">
+      <Filter>Manager\EnemyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Land.h">
+      <Filter>Manager\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Sky.h">
+      <Filter>Manager\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Manager\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Manager\EnemyManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Manager\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreHub.h">
+      <Filter>Manager\Hub</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponHub.h">
+      <Filter>Manager\Hub</Filter>
+    </ClInclude>
+    <ClInclude Include="HubManager.h">
+      <Filter>Manager\Hub</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Manager\EnemyManager\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Sword.h">
+      <Filter>Manager\EnemyManager\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Manager\EnemyManager\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="TankBullet.h">
+      <Filter>Manager\EnemyManager\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBullet.h">
+      <Filter>Manager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameBullet.h">
+      <Filter>Manager\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>Manager\Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameItem.h">
+      <Filter>Manager\Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>FrameWork\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="StartScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>FrameWork\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BombItem.h">
+      <Filter>Manager\Npc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinAPIProject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>FrameWork\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector.cpp">
+      <Filter>FrameWork\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>FrameWork\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>FrameWork\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>FrameWork\Keyborad</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>FrameWork\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>FrameWork\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="framework.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>FrameWork\ImageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>FrameWork\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>FrameWork\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>FrameWork\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>FrameWork\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Manager\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Manager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Land.cpp">
+      <Filter>Manager\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Sky.cpp">
+      <Filter>Manager\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Manager\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Manager\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreHub.cpp">
+      <Filter>Manager\Hub</Filter>
+    </ClCompile>
+    <ClCompile Include="HubManager.cpp">
+      <Filter>Manager\Hub</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponHub.cpp">
+      <Filter>Manager\Hub</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Manager\EnemyManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Manager\EnemyManager\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Sword.cpp">
+      <Filter>Manager\EnemyManager\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Manager\EnemyManager\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="TankBullet.cpp">
+      <Filter>Manager\EnemyManager\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBullet.cpp">
+      <Filter>Manager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameBullet.cpp">
+      <Filter>Manager\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>Manager\Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameItem.cpp">
+      <Filter>Manager\Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>FrameWork\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="StartScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BombItem.cpp">
+      <Filter>Manager\Npc</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WinAPIProject.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="WinAPIProject.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="icon.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
